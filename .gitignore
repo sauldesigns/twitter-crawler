@@ -1,0 +1,47 @@
+/twitter_logstash.conf
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/twitter-search-engine/dist
+/twitter-search-engine/tmp
+/twitter-search-engine/out-tsc
+# Only exists if Bazel was run
+/twitter-search-engine/bazel-out
+
+# dependencies
+/twitter-search-engine/node_modules
+
+# profiling files
+/twitter-search-engine/chrome-profiler-events*.json
+/twitter-search-engine/speed-measure-plugin*.json
+
+# IDEs and editors
+/twitter-search-engine/.idea
+/twitter-search-engine/.project
+/twitter-search-engine/.classpath
+/twitter-search-engine/.c9/
+/twitter-search-engine/*.launch
+/twitter-search-engine/.settings/
+/twitter-search-engine/*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/twitter-search-engine/.sass-cache
+/twitter-search-engine/connect.lock
+/twitter-search-engine/coverage
+/twitter-search-engine/libpeerconnection.log
+/twitter-search-engine/npm-debug.log
+/twitter-search-engine/yarn-error.log
+/twitter-search-engine/testem.log
+/twitter-search-engine/typings
+
+# System Files
+/twitter-search-engine/.DS_Store
+/twitter-search-engine/Thumbs.db
